@@ -1,3 +1,13 @@
+/home/david/ros2_ws/install/ugv/share/ugv/launch/display_ugv.launch.py
+/home/david/ros2_ws/install/ugv/share/ugv/urdf/ugv.xacro
+/home/david/ros2_ws/install/ugv/share/ugv/mesh/lidarv2.obj
+/home/david/ros2_ws/install/ugv/share/ugv/mesh/shaftv2.mtl
+/home/david/ros2_ws/install/ugv/share/ugv/mesh/shaftv2.obj
+/home/david/ros2_ws/install/ugv/share/ugv/mesh/mainBodyv2.mtl
+/home/david/ros2_ws/install/ugv/share/ugv/mesh/mainBodyv2.obj
+/home/david/ros2_ws/install/ugv/share/ugv/mesh/tyrev3.obj
+/home/david/ros2_ws/install/ugv/share/ugv/mesh/lidarv2.mtl
+/home/david/ros2_ws/install/ugv/share/ugv/mesh/tyrev3.mtl
 /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/package_run_dependencies/ugv
 /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/parent_prefix_path/ugv
 /home/david/ros2_ws/install/ugv/share/ugv/environment/ament_prefix_path.sh
