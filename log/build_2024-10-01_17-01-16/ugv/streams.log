@@ -1,0 +1,25 @@
+[0.035s] Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j2 -l2
+[0.080s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.255s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.255s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.264s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.266s]   By not providing "Findrviz.cmake" in CMAKE_MODULE_PATH this project has
+[0.266s]   asked CMake to find a package configuration file provided by "rviz", but
+[0.266s]   CMake did not find one.
+[0.266s] 
+[0.266s]   Could not find a package configuration file provided by "rviz" with any of
+[0.267s]   the following names:
+[0.267s] 
+[0.267s]     rvizConfig.cmake
+[0.267s]     rviz-config.cmake
+[0.267s] 
+[0.267s]   Add the installation prefix of "rviz" to CMAKE_PREFIX_PATH or set
+[0.267s]   "rviz_DIR" to a directory containing one of the above files.  If "rviz"
+[0.267s]   provides a separate development package or SDK, be sure it has been
+[0.267s]   installed.
+[0.267s] 
+[0.267s] [0m
+[0.267s] -- Configuring incomplete, errors occurred!
+[0.268s] See also "/home/david/ros2_ws/build/ugv/CMakeFiles/CMakeOutput.log".
+[0.270s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.271s] Invoked command in '/home/david/ros2_ws/build/ugv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j2 -l2

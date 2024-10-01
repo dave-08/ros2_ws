@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(xacro REQUIRED)
+find_package(rviz2 REQUIRED)
 
 
 if(BUILD_TESTING)
@@ -33,6 +34,10 @@ install(DIRECTORY urdf/
 
 install(DIRECTORY mesh/
   DESTINATION share/${PROJECT_NAME}/mesh
+)
+
+install(DIRECTORY rviz/
+  DESTINATION share/${PROJECT_NAME}/rviz
 )
 
 ament_package()

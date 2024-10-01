@@ -1,0 +1,8 @@
+<launch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://launch.ros2.org/schemas/launch-0.9.xsd">
+    <!-- Load the robot description from the Xacro file -->
+    <param name="robot_description" command="$(find xacro)/xacro '$(find ugv)/urdf/ugv.xacro'" />
+
+    <!-- Start RViz -->
+    <node name="rviz" pkg="rviz2" type="rviz2" args="-d $(find ugv)/rviz/display.rviz" />
+</launch>

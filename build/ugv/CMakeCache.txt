@@ -325,6 +325,12 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 //The directory containing a CMake configuration file for rclpy.
 rclpy_DIR:PATH=/opt/ros/humble/share/rclpy/cmake
 
+//The directory containing a CMake configuration file for rviz2.
+rviz2_DIR:PATH=/opt/ros/humble/share/rviz2/cmake
+
+//The directory containing a CMake configuration file for rviz.
+rviz_DIR:PATH=rviz_DIR-NOTFOUND
+
 //Value Computed by CMake
 ugv_BINARY_DIR:STATIC=/home/david/ros2_ws/build/ugv
 
