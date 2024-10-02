@@ -1,9 +1,0 @@
-/home/david/ros2_ws/build/ugv/CMakeFiles/uninstall.dir
-/home/david/ros2_ws/build/ugv/CMakeFiles/ugv_uninstall.dir
-/home/david/ros2_ws/build/ugv/CMakeFiles/test.dir
-/home/david/ros2_ws/build/ugv/CMakeFiles/edit_cache.dir
-/home/david/ros2_ws/build/ugv/CMakeFiles/rebuild_cache.dir
-/home/david/ros2_ws/build/ugv/CMakeFiles/list_install_components.dir
-/home/david/ros2_ws/build/ugv/CMakeFiles/install.dir
-/home/david/ros2_ws/build/ugv/CMakeFiles/install/local.dir
-/home/david/ros2_ws/build/ugv/CMakeFiles/install/strip.dir
