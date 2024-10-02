@@ -47,6 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/david/ros2_ws/src/ugv/launch"
     "/home/david/ros2_ws/src/ugv/urdf"
     "/home/david/ros2_ws/src/ugv/mesh"
+    "/home/david/ros2_ws/src/ugv/rviz"
     )
 endif()
 

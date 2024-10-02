@@ -31,6 +31,6 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz',
             output='screen',
-            arguments=['-d', os.path.join(package_dir, 'rviz')]
+            arguments=['-d', os.path.join(package_dir, 'rviz','ugv_config.rviz')]
         )
     ])
