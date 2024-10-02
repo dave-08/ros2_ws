@@ -1,0 +1,14 @@
+<launch>
+  <!-- Argument to specify the robot model -->
+  <arg name="model" default="$(find ugv)/urdf/ugv.xacro" />
+
+  <!-- Load the URDF from the Xacro file -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen">
+    <param name="robot_description" command="$(find xacro)/xacro $(arg model)" />
+  </node>
+
+  <!-- Launch RViz for visualization -->
+  <node pkg="rviz2" exec="rviz2" name="rviz" output="screen">
+    <param name="use_sim_time" value="false"/>
+  </node>
+</launch>

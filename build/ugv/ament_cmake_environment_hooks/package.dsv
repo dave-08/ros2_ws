@@ -1,0 +1,4 @@
+source;share/ugv/local_setup.bash
+source;share/ugv/local_setup.dsv
+source;share/ugv/local_setup.sh
+source;share/ugv/local_setup.zsh
