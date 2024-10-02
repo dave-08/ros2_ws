@@ -2,7 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ugv">
 <xacro:property name="mainBody" value= "package://ugv/mesh/mainBodyv2.obj"/>
 <xacro:property name="wheel" value= "package://ugv/mesh/tyrev2.obj"/>
-<xacro:property name="scale" value = "0.01 0.01 0.01"/>
+<xacro:property name="scale" value = "0.1 0.1 0.1"/>
 
 <xacro:macro name="wheel" params="name">
     <link name="${name}">
@@ -43,7 +43,7 @@
 <joint name="mainBody_WheelBL" type="fixed">
     <parent link="base_link"/>
     <child link="wheelBL"/>
-    <origin xyz="-0.07 0.057 0.010" rpy="0.0 0.0 0.0"/>  
+    <origin xyz="-0.7 0.57 0.10" rpy="0.0 0.0 0.0"/>  
 </joint>
 
 <joint name="mainBody_WheelFL" type="fixed">

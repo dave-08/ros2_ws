@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ugv">
-<xacro:property name="mainBody" value= "package://ugv/mesh/mainBodyv2.obj"/>
-<xacro:property name="wheel" value= "package://ugv/mesh/tyrev2.obj"/>
-<xacro:property name="scale" value = "0.1 0.1 0.1"/>
+<xacro:property name="mainBody" value= "package://ugv/mesh//mainBody.obj"/>
+<xacro:property name="wheel" value= "package://ugv/mesh/tyre.obj"/>
+<xacro:property name="lidar" value= "package://ugv/mesh/lidar.obj"/>
+<xacro:property name="scale" value = "1 1 1"/>
 
 <xacro:macro name="wheel" params="name">
     <link name="${name}">
     <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
         <geometry>
             <mesh filename="${wheel}" scale="${scale}"/>
         </geometry>
@@ -31,9 +32,19 @@
 
 <link name="base_link">  
     <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
         <geometry>
             <mesh filename="${mainBody}" scale= "${scale}"/>
+        </geometry>
+        <material name="grey"/>
+    </visual>
+</link>
+
+<link name="lidar">  
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+        <geometry>
+            <mesh filename="${lidar}" scale= "${scale}"/>
         </geometry>
         <material name="grey"/>
     </visual>
@@ -43,25 +54,31 @@
 <joint name="mainBody_WheelBL" type="fixed">
     <parent link="base_link"/>
     <child link="wheelBL"/>
-    <origin xyz="-0.7 0.57 0.10" rpy="0.0 0.0 0.0"/>  
+    <origin xyz="-0.07 0.0525 0.01" rpy="0.0 0.0 0.0"/>  
 </joint>
 
 <joint name="mainBody_WheelFL" type="fixed">
     <parent link="base_link"/>
     <child link="wheelFL"/>
-    <origin xyz="0.07 0.057 0.010" rpy="0.0 0.0 0.0"/>  
+    <origin xyz="0.07 0.0525 0.010" rpy="0.0 0.0 0.0"/>  
 </joint>
 
 <joint name="mainBody_WheelFR" type="fixed">
     <parent link="base_link"/>
     <child link="wheelFR"/>
-    <origin xyz="0.07 -0.048 0.010" rpy="0.0 0.0 0.0"/>  
+    <origin xyz="0.07 -0.0525 0.010" rpy="0.0 0.0 0.0"/>  
 </joint>
 
 <joint name="mainBody_WheelBR" type="fixed">
     <parent link="base_link"/>
     <child link="wheelBR"/>
-    <origin xyz="-0.07 -0.048 0.010" rpy="0.0 0.0 0.0"/>  
+    <origin xyz="-0.07 -0.0525 0.010" rpy="0.0 0.0 0.0"/>  
+</joint>
+
+<joint name="mainBody_Lidar" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar"/>
+    <origin xyz="0.075 0 0.04" rpy="0.0 0.0 0.0"/>  
 </joint>
 
 </robot>

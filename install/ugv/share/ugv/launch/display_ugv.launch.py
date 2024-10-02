@@ -9,7 +9,7 @@ def generate_launch_description():
     package_dir = get_package_share_directory('ugv')
 
     # Set the path to the Xacro file
-    xacro_file = os.path.join(package_dir, 'urdf', 'ugv.xacro')
+    xacro_file = os.path.join(package_dir, 'urdf', 'ugv1.xacro')
 
     return LaunchDescription([
         # Robot State Publisher Node

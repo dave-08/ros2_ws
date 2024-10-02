@@ -1,7 +1,9 @@
 /home/david/ros2_ws/install/ugv/share/ugv//launch/display_ugv.launch.py
+/home/david/ros2_ws/install/ugv/share/ugv//urdf/ugv1.xacro
 /home/david/ros2_ws/install/ugv/share/ugv//urdf/ugv.xacro
-/home/david/ros2_ws/install/ugv/share/ugv//mesh/tyrev2.obj
-/home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBodyv2.obj
+/home/david/ros2_ws/install/ugv/share/ugv//mesh/tyre.obj
+/home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.obj
+/home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBody.obj
 /home/david/ros2_ws/install/ugv/share/ugv//rviz/ugv_config.rviz
 /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/package_run_dependencies/ugv
 /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/parent_prefix_path/ugv
