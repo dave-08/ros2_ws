@@ -12,6 +12,15 @@ def generate_launch_description():
     xacro_file = os.path.join(package_dir, 'urdf', 'ugv1.xacro')
 
     return LaunchDescription([
+
+         # Joint State Publisher
+        Node(
+            package='joint_state_publisher_gui',
+            executable='joint_state_publisher_gui',
+            name='joint_state_publisher',
+            output='screen'
+        ),
+
         # Robot State Publisher Node
         Node(
             package='robot_state_publisher',
