@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ugv">
-<xacro:property name="mainBody" value= "file:///home/david/urdf_tutorial/obj/mainBody.obj"/>
-<xacro:property name="wheel" value= "file:///home/david/urdf_tutorial/obj/tyre.obj"/>
-<xacro:property name="lidar" value= "file:///home/david/urdf_tutorial/obj/lidar.obj"/>
-<xacro:property name="shaft" value= "file:///home/david/urdf_tutorial/obj/shaft.obj"/>
+<xacro:property name="mainBody" value= "package://ugv/mesh/mainBody.obj"/>
+<xacro:property name="wheel" value= "package://ugv/mesh/tyre.obj"/>
+<xacro:property name="lidar" value= "package://ugv/mesh/lidar.obj"/>
+<xacro:property name="shaft" value= "package://ugv/mesh/shaft.obj"/>
 <xacro:property name="scale" value = "1 1 1"/>
 
 <xacro:macro name="wheel" params="name">
     <link name="${name}">
     <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
         <geometry>
             <mesh filename="${wheel}" scale="${scale}"/>
         </geometry>
@@ -33,7 +33,7 @@
 
 <link name="base_link">  
     <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
         <geometry>
             <mesh filename="${mainBody}" scale= "${scale}"/>
         </geometry>
@@ -43,7 +43,7 @@
 
 <link name="lidar">  
     <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
         <geometry>
             <mesh filename="${lidar}" scale= "${scale}"/>
         </geometry>
@@ -53,7 +53,7 @@
 
 <link name="shaftF">  
     <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
         <geometry>
             <mesh filename="${shaft}" scale= "${scale}"/>
         </geometry>
@@ -63,7 +63,7 @@
 
 <link name="shaftB">  
     <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
         <geometry>
             <mesh filename="${shaft}" scale= "${scale}"/>
         </geometry>

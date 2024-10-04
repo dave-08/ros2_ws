@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ugv">
+<xacro:property name="mainBody" value= "package://ugv/mesh/mainBody.obj"/>
+<xacro:property name="wheel" value= "package://ugv/mesh/tyre.obj"/>
+<xacro:property name="lidar" value= "package://ugv/mesh/lidar.obj"/>
+<xacro:property name="shaft" value= "package://ugv/mesh/shaft.obj"/>
+<xacro:property name="scale" value = "1 1 1"/>
+
+<xacro:macro name="wheel" params="name">
+    <link name="${name}">
+    <visual>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
+        <geometry>
+            <mesh filename="${wheel}" scale="${scale}"/>
+        </geometry>
+        <material name="black"/>
+    </visual>
+    <inertial>
+        <mass value="0.2"/>
+        <inertia ixx ="0.00695" iyy ="0.00695" izz ="0.01203" ixy = '0.0' ixz = '0.0' iyz = '0.0'/>
+    </inertial>
+    <gazebo>
+        <mu>1.0</mu>
+        <mu2>0.8</mu2>
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+</link>
+</xacro:macro>
+
+<xacro:wheel name="wheelBL"/>
+<xacro:wheel name="wheelFL"/>
+<xacro:wheel name="wheelFR"/>
+<xacro:wheel name="wheelBR"/>
+
+<material name="black">
+    <color rgba="1 1 1 1.0"/>
+</material>
+
+<material name="grey">
+    <color rgba="1 0.0 0.0 1.0"/>
+</material>
+
+<link name="base_link">  
+    <visual>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
+        <geometry>
+            <mesh filename="${mainBody}" scale= "${scale}"/>
+        </geometry>
+        <material name="grey"/>
+    </visual>
+    <inertial>
+        <mass value="0.2"/>
+        <inertia ixx ="0.067" iyy ="0.227" izz ="0.173" ixy = '0.0' ixz = '0.0' iyz = '0.0'/>
+    </inertial>
+    <gazebo>
+        <mu>1.0</mu>
+        <mu2>0.8</mu2>
+        <material>Gazebo/Black</material>
+    </gazebo>
+</link>
+
+<link name="lidar">  
+    <visual>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
+        <geometry>
+            <mesh filename="${lidar}" scale= "${scale}"/>
+        </geometry>
+        <material name="grey"/>
+    </visual>
+</link>
+
+<link name="shaftF">  
+    <visual>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
+        <geometry>
+            <mesh filename="${shaft}" scale= "${scale}"/>
+        </geometry>
+        <material name="grey"/>
+    </visual>
+</link>
+
+<link name="shaftB">  
+    <visual>
+        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
+        <geometry>
+            <mesh filename="${shaft}" scale= "${scale}"/>
+        </geometry>
+        <material name="grey"/>
+    </visual>
+</link>
+
+
+<joint name="mainBody_shaftF" type="fixed">
+    <parent link="base_link"/>
+    <child link="shaftF"/>
+    <origin xyz="0.07 0 0.0105" rpy="0.0 0.0 0.0"/>  
+</joint>
+
+<joint name="mainBody_shaftB" type="fixed">
+    <parent link="base_link"/>
+    <child link="shaftB"/>
+    <origin xyz="-0.07 0 0.0105" rpy="0.0 0.0 0.0"/>   
+</joint>
+
+<joint name="mainBody_WheelBL" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheelBL"/>
+    <origin xyz="-0.07 0.0525 0.01" rpy="0.0 0.0 0.0"/>
+    <axis xyz="0 1 0"/> 
+    <limit lower="0" upper="0" effort="0" velocity="0"/>    
+</joint>
+
+<joint name="mainBody_WheelFL" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheelFL"/>
+    <origin xyz="0.07 0.0525 0.010" rpy="0.0 0.0 0.0"/> 
+    <axis xyz="0 1 0"/> 
+    <limit lower="0" upper="0" effort="0" velocity="0"/>   
+</joint>
+
+<joint name="mainBody_WheelFR" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheelFR"/>
+    <origin xyz="0.07 -0.0525 0.010" rpy="0.0 0.0 0.0"/> 
+    <axis xyz="0 1 0"/> 
+    <limit lower="0" upper="0" effort="0" velocity="0"/>   
+</joint>
+
+<joint name="mainBody_WheelBR" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheelBR"/>
+    <origin xyz="-0.07 -0.0525 0.010" rpy="0.0 0.0 0.0"/> 
+    <axis xyz="0 1 0"/> 
+    <limit lower="0" upper="0" effort="0" velocity="0"/>   
+</joint>
+
+<joint name="mainBody_Lidar" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar"/>
+    <origin xyz="0.075 0 0.04" rpy="0.0 0.0 0.0"/>  
+</joint>
+
+</robot>
+
+    

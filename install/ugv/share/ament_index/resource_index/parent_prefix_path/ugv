@@ -1,1 +1,1 @@
-/opt/ros/humble:/home/david/ros2_ws/install/ugv
+/home/david/ros2_ws/install/ugv:/opt/ros/humble

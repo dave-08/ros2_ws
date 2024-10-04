@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (ugv) JobQueued: {'identifier': 'ugv', 'dependencies': OrderedDict()}
+[0.000222] (ugv) JobStarted: {'identifier': 'ugv'}
+[0.023774] (ugv) JobProgress: {'identifier': 'ugv', 'progress': 'cmake'}
+[0.026056] (ugv) JobProgress: {'identifier': 'ugv', 'progress': 'build'}
+[0.026330] (ugv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/ros2_ws/build/ugv', '--', '-j2', '-l2'], 'cwd': '/home/david/ros2_ws/build/ugv', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'david'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/david'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2254'), ('SYSTEMD_EXEC_PID', '2427'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4278'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/david/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'david'), ('JOURNAL_STREAM', '8:11282'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'david'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/david-VirtualBox:@/tmp/.ICE-unix/2389,unix/david-VirtualBox:/tmp/.ICE-unix/2389'), ('INVOCATION_ID', '8212790ec1cd4f1dbd456f008c11a231'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JP5WU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-72abf13029.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/david/ros2_ws/install/ugv:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/david/ros2_ws/build/ugv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/david/ros2_ws/install/ugv:/opt/ros/humble')]), 'shell': False}
+[0.093647] (ugv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097854] (-) TimerEvent: {}
+[0.198752] (-) TimerEvent: {}
+[0.304091] (-) TimerEvent: {}
+[0.322850] (ugv) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.323792] (ugv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.412996] (-) TimerEvent: {}
+[0.438700] (ugv) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.478464] (ugv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.493353] (ugv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.493593] (ugv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.509013] (ugv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.518624] (-) TimerEvent: {}
+[0.559628] (ugv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.598610] (ugv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.598773] (ugv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.629964] (-) TimerEvent: {}
+[0.735435] (-) TimerEvent: {}
+[0.802058] (ugv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.836432] (-) TimerEvent: {}
+[0.950677] (-) TimerEvent: {}
+[0.954892] (ugv) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.005107] (ugv) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.015881] (ugv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.021841] (ugv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.027794] (ugv) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.035547] (ugv) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.036411] (ugv) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.047405] (ugv) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.049923] (ugv) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.050283] (ugv) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.050389] (ugv) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.050452] (ugv) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.052400] (-) TimerEvent: {}
+[1.052664] (ugv) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.053094] (ugv) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.053769] (ugv) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.054003] (ugv) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.054113] (ugv) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.054177] (ugv) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.054233] (ugv) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.158323] (-) TimerEvent: {}
+[1.167443] (ugv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.167771] (ugv) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.167841] (ugv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.200720] (ugv) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.212036] (ugv) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.223013] (ugv) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.260052] (-) TimerEvent: {}
+[1.262624] (ugv) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.360778] (-) TimerEvent: {}
+[1.402631] (ugv) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.445090] (ugv) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.460974] (-) TimerEvent: {}
+[1.546716] (ugv) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.546951] (ugv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.561761] (-) TimerEvent: {}
+[1.572623] (ugv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.595417] (ugv) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.637469] (ugv) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.662467] (-) TimerEvent: {}
+[1.756942] (ugv) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.757420] (ugv) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.758565] (ugv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.758673] (ugv) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.758737] (ugv) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.764508] (-) TimerEvent: {}
+[1.776870] (ugv) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.777135] (ugv) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.777751] (ugv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.777866] (ugv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.785722] (ugv) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.785885] (ugv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.850618] (ugv) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.864855] (-) TimerEvent: {}
+[1.882144] (ugv) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.965419] (-) TimerEvent: {}
+[2.009361] (ugv) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.058295] (ugv) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.066461] (-) TimerEvent: {}
+[2.160878] (ugv) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.161905] (ugv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.162854] (ugv) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.164870] (ugv) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.166768] (ugv) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[2.167108] (-) TimerEvent: {}
+[2.167702] (ugv) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[2.205487] (ugv) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.205816] (ugv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.206806] (ugv) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.209087] (ugv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.210495] (ugv) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.221569] (ugv) StdoutLine: {'line': b'-- Generating done\n'}
+[2.225132] (ugv) StdoutLine: {'line': b'-- Build files have been written to: /home/david/ros2_ws/build/ugv\n'}
+[2.267878] (-) TimerEvent: {}
+[2.276696] (ugv) CommandEnded: {'returncode': 0}
+[2.354111] (ugv) JobProgress: {'identifier': 'ugv', 'progress': 'install'}
+[2.366917] (ugv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/ros2_ws/build/ugv'], 'cwd': '/home/david/ros2_ws/build/ugv', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'david'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/david'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2254'), ('SYSTEMD_EXEC_PID', '2427'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4278'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/david/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'david'), ('JOURNAL_STREAM', '8:11282'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'david'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/david-VirtualBox:@/tmp/.ICE-unix/2389,unix/david-VirtualBox:/tmp/.ICE-unix/2389'), ('INVOCATION_ID', '8212790ec1cd4f1dbd456f008c11a231'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JP5WU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-72abf13029.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/david/ros2_ws/install/ugv:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/david/ros2_ws/build/ugv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/david/ros2_ws/install/ugv:/opt/ros/humble')]), 'shell': False}
+[2.368107] (-) TimerEvent: {}
+[2.386914] (ugv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.388550] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//launch\n'}
+[2.388707] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//launch/display_ugv.launch.py\n'}
+[2.388773] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//launch/spawn_ugv.launch.py\n'}
+[2.388832] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//urdf\n'}
+[2.388886] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//urdf/ugvGazebo.xacro\n'}
+[2.388940] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//urdf/ugv.urdf\n'}
+[2.388994] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//urdf/ugv1.xacro\n'}
+[2.389047] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//urdf/ugv.xacro\n'}
+[2.389100] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh\n'}
+[2.392946] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/tyre.mtl\n'}
+[2.394587] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/tyre.obj\n'}
+[2.394940] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.obj\n'}
+[2.395015] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/shaft.obj\n'}
+[2.395548] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.mtl\n'}
+[2.395616] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBody.obj\n'}
+[2.395674] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/shaft.mtl\n'}
+[2.395729] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBody.mtl\n'}
+[2.395784] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//rviz\n'}
+[2.395837] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//rviz/ugv_config.rviz\n'}
+[2.395889] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/package_run_dependencies/ugv\n'}
+[2.395943] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/parent_prefix_path/ugv\n'}
+[2.395995] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/environment/ament_prefix_path.sh\n'}
+[2.396048] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/ugv/share/ugv/environment/ament_prefix_path.dsv\n'}
+[2.396100] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/environment/path.sh\n'}
+[2.396154] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/ugv/share/ugv/environment/path.dsv\n'}
+[2.398494] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.bash\n'}
+[2.398591] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.sh\n'}
+[2.398652] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.zsh\n'}
+[2.399307] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.dsv\n'}
+[2.400720] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/ugv/share/ugv/package.dsv\n'}
+[2.400808] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/packages/ugv\n'}
+[2.400871] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/cmake/ugvConfig.cmake\n'}
+[2.400928] (ugv) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/cmake/ugvConfig-version.cmake\n'}
+[2.400984] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/ugv/share/ugv/package.xml\n'}
+[2.409387] (ugv) CommandEnded: {'returncode': 0}
+[2.468606] (-) TimerEvent: {}
+[2.546404] (ugv) JobEnded: {'identifier': 'ugv', 'rc': 0}
+[2.547786] (-) EventReactorShutdown: {}
