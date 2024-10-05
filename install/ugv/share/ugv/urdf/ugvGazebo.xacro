@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ugv">
-<xacro:property name="mainBody" value= "package://ugv/mesh/mainBody.obj"/>
-<xacro:property name="wheel" value= "package://ugv/mesh/tyre.obj"/>
-<xacro:property name="lidar" value= "package://ugv/mesh/lidar.obj"/>
-<xacro:property name="shaft" value= "package://ugv/mesh/shaft.obj"/>
+<xacro:property name="mainBody" value= "package://ugv/mesh/mainBody.stl"/>
+<xacro:property name="wheel" value= "package://ugv/mesh/tyre.stl"/>
+<xacro:property name="lidar" value= "package://ugv/mesh/lidar.stl"/>
+<xacro:property name="shaft" value= "package://ugv/mesh/shaft.stl"/>
 <xacro:property name="scale" value = "1 1 1"/>
 
 <xacro:macro name="wheel" params="name">
