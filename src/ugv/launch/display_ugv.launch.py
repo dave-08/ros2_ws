@@ -9,11 +9,20 @@ def generate_launch_description():
     package_dir = get_package_share_directory('ugv')
 
     # Set the path to the Xacro file
-    xacro_file = os.path.join(package_dir, 'urdf', 'ugv1.xacro')
+    xacro_file = os.path.join(package_dir, 'urdf', 'ugv.xacro')
 
     return LaunchDescription([
 
-         # Joint State Publisher
+        # RViz Node for visualization
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz',
+            output='screen',
+            arguments=['-d', os.path.join(package_dir, 'rviz','ugv_config.rviz')]
+        ),
+
+                 # Joint State Publisher
         Node(
             package='joint_state_publisher_gui',
             executable='joint_state_publisher_gui',
@@ -32,14 +41,7 @@ def generate_launch_description():
                     'xacro ', xacro_file
                 ])
             }]
-        ),
-
-        # RViz Node for visualization
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            name='rviz',
-            output='screen',
-            arguments=['-d', os.path.join(package_dir, 'rviz','ugv_config.rviz')]
         )
+
+
     ])

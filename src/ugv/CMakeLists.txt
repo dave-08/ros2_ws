@@ -7,7 +7,11 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rclpy REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(urdf REQUIRED)
+find_package(xacro REQUIRED)
+find_package(joint_state_publisher)
+find_package(joint_state_publisher_gui)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -20,14 +24,6 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
-find_package(ament_cmake REQUIRED)
-find_package(gazebo_ros REQUIRED)
-find_package(xacro REQUIRED)
-find_package(urdf REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(joint_state_publisher)
-find_package(joint_state_publisher_gui)
 
 install(DIRECTORY launch urdf mesh rviz
   DESTINATION share/${PROJECT_NAME}/
