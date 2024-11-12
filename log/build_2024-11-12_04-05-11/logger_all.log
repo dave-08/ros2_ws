@@ -1,0 +1,196 @@
+[0.225s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.225s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb26ea380>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb26e9720>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb26e9720>>, mixin_verb=('build',))
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.580s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/david/ros2_ws'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/greetingpy) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/greetingpy) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/greetingpy) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/greetingpy) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/greetingpy) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/greetingpy) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/greetingpy) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/greetingpy) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/greetingpy) by extension 'ros'
+[0.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/greetingpy' with type 'ros.ament_python' and name 'greetingpy'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv) by extension 'ros'
+[0.616s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv' with type 'ros.ament_cmake' and name 'ugv'
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.689s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/david/ros2_ws/install/testnode' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.689s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/david/ros2_ws/install/greetingpy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.689s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/david/ros2_ws/install/ugv' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.689s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/david/ros2_ws/install/testnode' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.690s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/david/ros2_ws/install/ugv' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.691s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/david/ros2_ws/install
+[0.694s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 312 installed packages in /opt/ros/humble
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'greetingpy' build argument 'cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'greetingpy' build argument 'cmake_target' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'greetingpy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'greetingpy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'greetingpy' build argument 'cmake_clean_first' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'greetingpy' build argument 'cmake_force_configure' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'greetingpy' build argument 'ament_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'greetingpy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'greetingpy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.781s] DEBUG:colcon.colcon_core.verb:Building package 'greetingpy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/ros2_ws/build/greetingpy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/ros2_ws/install/greetingpy', 'merge_install': False, 'path': '/home/david/ros2_ws/src/greetingpy', 'symlink_install': False, 'test_result_base': None}
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'ugv' build argument 'cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'ugv' build argument 'cmake_target' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'ugv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'ugv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'ugv' build argument 'cmake_clean_first' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'ugv' build argument 'cmake_force_configure' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'ugv' build argument 'ament_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'ugv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'ugv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.782s] DEBUG:colcon.colcon_core.verb:Building package 'ugv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/ros2_ws/build/ugv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/ros2_ws/install/ugv', 'merge_install': False, 'path': '/home/david/ros2_ws/src/ugv', 'symlink_install': False, 'test_result_base': None}
+[0.782s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.785s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/david/ros2_ws/src/greetingpy' with build type 'ament_python'
+[0.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('greetingpy', 'ament_prefix_path')
+[0.789s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/ros2_ws/install/greetingpy/share/greetingpy/hook/ament_prefix_path.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/ros2_ws/install/greetingpy/share/greetingpy/hook/ament_prefix_path.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/ros2_ws/install/greetingpy/share/greetingpy/hook/ament_prefix_path.sh'
+[0.794s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.794s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.800s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/ros2_ws/src/ugv' with build type 'ament_cmake'
+[0.801s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/ros2_ws/src/ugv'
+[0.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.348s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/david/ros2_ws/src/greetingpy'
+[1.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/opt/ros/humble /usr/bin/cmake /home/david/ros2_ws/src/ugv -DCMAKE_INSTALL_PREFIX=/home/david/ros2_ws/install/ugv
+[2.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/ros2_ws/src/greetingpy': PYTHONPATH=/home/david/ros2_ws/build/greetingpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/greetingpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/greetingpy build --build-base /home/david/ros2_ws/build/greetingpy/build install --record /home/david/ros2_ws/build/greetingpy/install.log --single-version-externally-managed install_data
+[2.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/ros2_ws/src/greetingpy' returned '0': PYTHONPATH=/home/david/ros2_ws/build/greetingpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/greetingpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/greetingpy build --build-base /home/david/ros2_ws/build/greetingpy/build install --record /home/david/ros2_ws/build/greetingpy/install.log --single-version-externally-managed install_data
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/greetingpy' for CMake module files
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/greetingpy' for CMake config files
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/greetingpy/lib'
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/greetingpy/bin'
+[2.710s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/greetingpy/lib/pkgconfig/greetingpy.pc'
+[2.711s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/greetingpy/lib/python3.10/site-packages'
+[2.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('greetingpy', 'pythonpath')
+[2.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/ros2_ws/install/greetingpy/share/greetingpy/hook/pythonpath.ps1'
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/ros2_ws/install/greetingpy/share/greetingpy/hook/pythonpath.dsv'
+[2.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/ros2_ws/install/greetingpy/share/greetingpy/hook/pythonpath.sh'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/greetingpy/bin'
+[2.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(greetingpy)
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/greetingpy/share/greetingpy/package.ps1'
+[2.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/ros2_ws/install/greetingpy/share/greetingpy/package.dsv'
+[2.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/greetingpy/share/greetingpy/package.sh'
+[2.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/greetingpy/share/greetingpy/package.bash'
+[2.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/greetingpy/share/greetingpy/package.zsh'
+[2.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/ros2_ws/install/greetingpy/share/colcon-core/packages/greetingpy)
+[3.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/opt/ros/humble /usr/bin/cmake /home/david/ros2_ws/src/ugv -DCMAKE_INSTALL_PREFIX=/home/david/ros2_ws/install/ugv
+[3.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j6 -l6
+[3.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j6 -l6
+[4.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/ugv
+[4.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv)
+[4.095s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv' for CMake module files
+[4.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/ugv
+[4.098s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv' for CMake config files
+[4.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv', 'cmake_prefix_path')
+[4.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/ros2_ws/install/ugv/share/ugv/hook/cmake_prefix_path.ps1'
+[4.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/ros2_ws/install/ugv/share/ugv/hook/cmake_prefix_path.dsv'
+[4.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/ros2_ws/install/ugv/share/ugv/hook/cmake_prefix_path.sh'
+[4.103s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv/bin'
+[4.103s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv/lib/pkgconfig/ugv.pc'
+[4.104s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv/lib/python3.10/site-packages'
+[4.104s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv/bin'
+[4.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/ugv/share/ugv/package.ps1'
+[4.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/ros2_ws/install/ugv/share/ugv/package.dsv'
+[4.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/ugv/share/ugv/package.sh'
+[4.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/ugv/share/ugv/package.bash'
+[4.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/ugv/share/ugv/package.zsh'
+[4.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/ros2_ws/install/ugv/share/colcon-core/packages/ugv)
+[4.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv)
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv' for CMake module files
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv' for CMake config files
+[4.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv', 'cmake_prefix_path')
+[4.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/ros2_ws/install/ugv/share/ugv/hook/cmake_prefix_path.ps1'
+[4.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/ros2_ws/install/ugv/share/ugv/hook/cmake_prefix_path.dsv'
+[4.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/ros2_ws/install/ugv/share/ugv/hook/cmake_prefix_path.sh'
+[4.167s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv/bin'
+[4.167s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv/lib/pkgconfig/ugv.pc'
+[4.168s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv/lib/python3.10/site-packages'
+[4.169s] Level 1:colcon.colcon_core.environment:checking '/home/david/ros2_ws/install/ugv/bin'
+[4.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/ugv/share/ugv/package.ps1'
+[4.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/ros2_ws/install/ugv/share/ugv/package.dsv'
+[4.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/ugv/share/ugv/package.sh'
+[4.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/ugv/share/ugv/package.bash'
+[4.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/ros2_ws/install/ugv/share/ugv/package.zsh'
+[4.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/ros2_ws/install/ugv/share/colcon-core/packages/ugv)
+[4.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.183s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.203s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.253s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.254s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/ros2_ws/install/local_setup.ps1'
+[4.257s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/ros2_ws/install/_local_setup_util_ps1.py'
+[4.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/ros2_ws/install/setup.ps1'
+[4.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/ros2_ws/install/local_setup.sh'
+[4.264s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/ros2_ws/install/_local_setup_util_sh.py'
+[4.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/ros2_ws/install/setup.sh'
+[4.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/ros2_ws/install/local_setup.bash'
+[4.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/ros2_ws/install/setup.bash'
+[4.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/ros2_ws/install/local_setup.zsh'
+[4.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/ros2_ws/install/setup.zsh'
