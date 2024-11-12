@@ -4,18 +4,17 @@
   <name>ugv</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="david.pareira21@gmail.com">david</maintainer>
+  <maintainer email="david@todo.todo">david</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <depend>rclpy</depend>
+  <depend>rclcpp</depend>
   <depend>xacro</depend>
   <depend>rviz2</depend>
   <depend>robot_state_publisher</depend>
   <depend>joint_state_publisher</depend>
   <depend>joint_state_publisher_gui</depend>
-  <depend>gazebo_ros</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

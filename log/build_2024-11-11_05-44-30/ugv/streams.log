@@ -1,0 +1,40 @@
+[0.023s] Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j6 -l6
+[0.128s] Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j6 -l6
+[0.207s] Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/ugv
+[0.227s] -- Install configuration: ""
+[0.227s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//launch
+[0.228s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//launch/display_ugv.launch.py
+[0.228s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//urdf
+[0.229s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//urdf/ugv.urdf
+[0.229s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//urdf/ugv.xacro
+[0.229s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh
+[0.230s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/shaft.mtl
+[0.230s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.mtl
+[0.230s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBody.stl
+[0.230s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/tyre.stl
+[0.231s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/shaft.obj
+[0.231s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.obj
+[0.231s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/tyre.obj
+[0.231s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/shaft.stl
+[0.232s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBody.obj
+[0.232s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/tyre.mtl
+[0.232s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBody.mtl
+[0.232s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.stl
+[0.233s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//rviz
+[0.233s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv//rviz/ugv_config.rviz
+[0.233s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/package_run_dependencies/ugv
+[0.234s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/parent_prefix_path/ugv
+[0.235s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/environment/ament_prefix_path.sh
+[0.235s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/environment/ament_prefix_path.dsv
+[0.237s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/environment/path.sh
+[0.238s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/environment/path.dsv
+[0.239s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.bash
+[0.239s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.sh
+[0.240s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.zsh
+[0.240s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.dsv
+[0.241s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/package.dsv
+[0.241s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/packages/ugv
+[0.241s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/cmake/ugvConfig.cmake
+[0.242s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/cmake/ugvConfig-version.cmake
+[0.243s] -- Up-to-date: /home/david/ros2_ws/install/ugv/share/ugv/package.xml
+[0.244s] Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/ugv

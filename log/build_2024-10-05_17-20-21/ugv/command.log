@@ -1,4 +1,0 @@
-Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j4 -l4
-Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j4 -l4
-Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/ugv
-Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/ugv

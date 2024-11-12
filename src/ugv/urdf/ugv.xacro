@@ -9,7 +9,7 @@
 <xacro:macro name="wheel" params="name">
     <link name="${name}">
     <visual>
-        <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
+        <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
         <geometry>
             <mesh filename="${wheel}" scale="${scale}"/>
         </geometry>
@@ -84,34 +84,34 @@
     <origin xyz="-0.07 0 0.0105" rpy="0.0 0.0 0.0"/>   
 </joint>
 
-<joint name="mainBody_WheelBL" type="fixed">
+<joint name="mainBody_WheelBL" type="continuous">
     <parent link="base_link"/>
     <child link="wheelBL"/>
-    <origin xyz="-0.07 0.0525 0.01" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.07 0.0525 0.019" rpy="0.0 0.0 0.0"/>
     <axis xyz="0 1 0"/> 
     <limit lower="0" upper="0" effort="0" velocity="0"/>    
 </joint>
 
-<joint name="mainBody_WheelFL" type="fixed">
+<joint name="mainBody_WheelFL" type="continuous">
     <parent link="base_link"/>
     <child link="wheelFL"/>
-    <origin xyz="0.07 0.0525 0.010" rpy="0.0 0.0 0.0"/> 
+    <origin xyz="0.07 0.0525 0.019" rpy="0.0 0.0 0.0"/> 
     <axis xyz="0 1 0"/> 
     <limit lower="0" upper="0" effort="0" velocity="0"/>   
 </joint>
 
-<joint name="mainBody_WheelFR" type="fixed">
+<joint name="mainBody_WheelFR" type="continuous">
     <parent link="base_link"/>
     <child link="wheelFR"/>
-    <origin xyz="0.07 -0.0525 0.010" rpy="0.0 0.0 0.0"/> 
+    <origin xyz="0.07 -0.0525 0.019" rpy="0.0 0.0 0.0"/> 
     <axis xyz="0 1 0"/> 
     <limit lower="0" upper="0" effort="0" velocity="0"/>   
 </joint>
 
-<joint name="mainBody_WheelBR" type="fixed">
+<joint name="mainBody_WheelBR" type="continuous">
     <parent link="base_link"/>
     <child link="wheelBR"/>
-    <origin xyz="-0.07 -0.0525 0.010" rpy="0.0 0.0 0.0"/> 
+    <origin xyz="-0.07 -0.0525 0.019" rpy="0.0 0.0 0.0"/> 
     <axis xyz="0 1 0"/> 
     <limit lower="0" upper="0" effort="0" velocity="0"/>   
 </joint>
