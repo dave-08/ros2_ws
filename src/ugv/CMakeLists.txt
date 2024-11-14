@@ -13,6 +13,7 @@ find_package(xacro REQUIRED)
 find_package(joint_state_publisher)
 find_package(joint_state_publisher_gui)
 find_package(rclpy REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -25,13 +26,6 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
-# Install Python nodes
-install(PROGRAMS
-  src/ugv_control.py  # Adjust the path if your Python file is elsewhere
-  DESTINATION lib/${PROJECT_NAME}
-)
-
 
 # Install URDF files
 install(DIRECTORY urdf/

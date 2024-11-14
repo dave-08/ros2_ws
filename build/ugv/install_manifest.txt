@@ -1,7 +1,8 @@
-/home/david/ros2_ws/install/ugv/lib/ugv/ugv_control.py
+/home/david/ros2_ws/install/ugv/share/ugv/urdf/r2d.urdf
 /home/david/ros2_ws/install/ugv/share/ugv/urdf/ugv.urdf
 /home/david/ros2_ws/install/ugv/share/ugv/urdf/ugv.xacro
 /home/david/ros2_ws/install/ugv/share/ugv/launch/ignition_ugv.launch.py
+/home/david/ros2_ws/install/ugv/share/ugv/launch/basic.launch.py
 /home/david/ros2_ws/install/ugv/share/ugv/launch/display_ugv.launch.py
 /home/david/ros2_ws/install/ugv/share/ugv//mesh/shaft.mtl
 /home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.mtl

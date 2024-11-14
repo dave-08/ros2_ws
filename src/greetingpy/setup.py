@@ -21,7 +21,7 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': ['greeting_publisher = greetingpy.greetpub:main',
+        'console_scripts': ['ugv_control = greetingpy.ugv_control:main',
                             'greeting_subscriber = greetingpy.greetsub:main'
                             
         ],
