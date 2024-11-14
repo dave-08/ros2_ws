@@ -8,6 +8,11 @@
 
 <xacro:macro name="wheel" params="name">
     <link name="${name}">
+        <inertial>
+            <mass value="1.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0" ixz="0" iyz="0"/>
+        </inertial>
     <visual>
         <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
         <geometry>
@@ -32,6 +37,11 @@
 </material>
 
 <link name="base_link">  
+    <inertial>
+            <mass value="1.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
     <visual>
         <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
         <geometry>
@@ -41,7 +51,12 @@
     </visual>
 </link>
 
-<link name="lidar">  
+<link name="lidar">
+    <inertial>
+            <mass value="1.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
     <visual>
         <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
         <geometry>
@@ -52,6 +67,11 @@
 </link>
 
 <link name="shaftF">  
+    <inertial>
+            <mass value="1.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
     <visual>
         <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
         <geometry>
@@ -62,6 +82,11 @@
 </link>
 
 <link name="shaftB">  
+    <inertial>
+            <mass value="1.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
     <visual>
         <origin xyz="0.0 0.0 0.009" rpy="1.57 0.0 0.0"/>
         <geometry>

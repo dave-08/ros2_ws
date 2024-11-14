@@ -5,7 +5,7 @@ set(ugv_BUILD_DEPENDS "rclcpp" "xacro" "rviz2" "robot_state_publisher" "joint_st
 set(ugv_BUILDTOOL_DEPENDS "ament_cmake")
 set(ugv_BUILD_EXPORT_DEPENDS "rclcpp" "xacro" "rviz2" "robot_state_publisher" "joint_state_publisher" "joint_state_publisher_gui")
 set(ugv_BUILDTOOL_EXPORT_DEPENDS )
-set(ugv_EXEC_DEPENDS "rclcpp" "xacro" "rviz2" "robot_state_publisher" "joint_state_publisher" "joint_state_publisher_gui")
+set(ugv_EXEC_DEPENDS "rclpy" "geometry_msgs" "std_msgs" "rclcpp" "xacro" "rviz2" "robot_state_publisher" "joint_state_publisher" "joint_state_publisher_gui")
 set(ugv_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(ugv_GROUP_DEPENDS )
 set(ugv_MEMBER_OF_GROUPS )

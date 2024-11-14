@@ -1,4 +1,0 @@
-[console_scripts]
-greeting_publisher = greetingpy.greetpub:main
-greeting_subscriber = greetingpy.greetsub:main
-

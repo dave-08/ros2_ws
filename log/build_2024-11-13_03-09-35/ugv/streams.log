@@ -1,0 +1,119 @@
+[0.029s] Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/home/david/install/greetingpy:/opt/ros/humble /usr/bin/cmake /home/david/ros2_ws/src/ugv -DCMAKE_INSTALL_PREFIX=/home/david/ros2_ws/install/ugv
+[0.556s] -- The C compiler identification is GNU 11.4.0
+[0.980s] -- The CXX compiler identification is GNU 11.4.0
+[1.009s] -- Detecting C compiler ABI info
+[1.198s] -- Detecting C compiler ABI info - done
+[1.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.225s] -- Detecting C compile features
+[1.227s] -- Detecting C compile features - done
+[1.238s] -- Detecting CXX compiler ABI info
+[1.427s] -- Detecting CXX compiler ABI info - done
+[1.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.447s] -- Detecting CXX compile features
+[1.448s] -- Detecting CXX compile features - done
+[1.458s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.823s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.052s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.141s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.151s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.166s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.220s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.302s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.307s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.470s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.540s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.641s] -- Looking for pthread.h
+[2.819s] -- Looking for pthread.h - found
+[2.820s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.991s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.994s] -- Found Threads: TRUE  
+[3.125s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.201s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[3.223s] [33mCMake Warning at CMakeLists.txt:13 (find_package):
+[3.223s]   By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH
+[3.223s]   this project has asked CMake to find a package configuration file provided
+[3.223s]   by "joint_state_publisher", but CMake did not find one.
+[3.223s] 
+[3.224s]   Could not find a package configuration file provided by
+[3.224s]   "joint_state_publisher" with any of the following names:
+[3.224s] 
+[3.224s]     joint_state_publisherConfig.cmake
+[3.224s]     joint_state_publisher-config.cmake
+[3.224s] 
+[3.224s]   Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH
+[3.224s]   or set "joint_state_publisher_DIR" to a directory containing one of the
+[3.224s]   above files.  If "joint_state_publisher" provides a separate development
+[3.225s]   package or SDK, be sure it has been installed.
+[3.225s] 
+[3.225s] [0m
+[3.244s] [33mCMake Warning at CMakeLists.txt:14 (find_package):
+[3.244s]   By not providing "Findjoint_state_publisher_gui.cmake" in CMAKE_MODULE_PATH
+[3.245s]   this project has asked CMake to find a package configuration file provided
+[3.245s]   by "joint_state_publisher_gui", but CMake did not find one.
+[3.245s] 
+[3.245s]   Could not find a package configuration file provided by
+[3.245s]   "joint_state_publisher_gui" with any of the following names:
+[3.245s] 
+[3.245s]     joint_state_publisher_guiConfig.cmake
+[3.245s]     joint_state_publisher_gui-config.cmake
+[3.245s] 
+[3.246s]   Add the installation prefix of "joint_state_publisher_gui" to
+[3.246s]   CMAKE_PREFIX_PATH or set "joint_state_publisher_gui_DIR" to a directory
+[3.246s]   containing one of the above files.  If "joint_state_publisher_gui" provides
+[3.246s]   a separate development package or SDK, be sure it has been installed.
+[3.246s] 
+[3.246s] [0m
+[3.248s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.250s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.416s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.417s] -- Added test 'lint_cmake' to check CMake code style
+[3.418s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.421s] -- Added test 'xmllint' to check XML markup files
+[3.424s] -- Configuring done
+[3.434s] -- Generating done
+[3.437s] -- Build files have been written to: /home/david/ros2_ws/build/ugv
+[3.465s] Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/home/david/install/greetingpy:/opt/ros/humble /usr/bin/cmake /home/david/ros2_ws/src/ugv -DCMAKE_INSTALL_PREFIX=/home/david/ros2_ws/install/ugv
+[3.470s] Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/home/david/install/greetingpy:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j6 -l6
+[3.578s] Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/home/david/install/greetingpy:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/ugv -- -j6 -l6
+[3.646s] Invoking command in '/home/david/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/home/david/install/greetingpy:/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/ugv
+[3.665s] -- Install configuration: ""
+[3.665s] -- Installing: /home/david/ros2_ws/install/ugv/lib/ugv/ugv_control.py
+[3.666s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/urdf
+[3.666s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/urdf/ugv.urdf
+[3.668s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/urdf/ugv.xacro
+[3.669s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/launch
+[3.669s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/launch/ignition_ugv.launch.py
+[3.669s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/launch/display_ugv.launch.py
+[3.670s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh
+[3.670s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/shaft.mtl
+[3.670s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.mtl
+[3.671s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBody.stl
+[3.675s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/tyre.stl
+[3.678s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/shaft.obj
+[3.679s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.obj
+[3.680s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/tyre.obj
+[3.683s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/shaft.stl
+[3.684s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBody.obj
+[3.687s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/tyre.mtl
+[3.688s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/mainBody.mtl
+[3.689s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//mesh/lidar.stl
+[3.690s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//rviz
+[3.690s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv//rviz/ugv_config.rviz
+[3.691s] -- Installing: /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/package_run_dependencies/ugv
+[3.691s] -- Installing: /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/parent_prefix_path/ugv
+[3.691s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/environment/ament_prefix_path.sh
+[3.692s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/environment/ament_prefix_path.dsv
+[3.692s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/environment/path.sh
+[3.692s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/environment/path.dsv
+[3.693s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.bash
+[3.693s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.sh
+[3.693s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.zsh
+[3.694s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/local_setup.dsv
+[3.694s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/package.dsv
+[3.694s] -- Installing: /home/david/ros2_ws/install/ugv/share/ament_index/resource_index/packages/ugv
+[3.694s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/cmake/ugvConfig.cmake
+[3.695s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/cmake/ugvConfig-version.cmake
+[3.695s] -- Installing: /home/david/ros2_ws/install/ugv/share/ugv/package.xml
+[3.700s] Invoked command in '/home/david/ros2_ws/build/ugv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/greetingpy:/home/david/install/greetingpy:/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/ugv

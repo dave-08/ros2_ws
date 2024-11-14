@@ -8,6 +8,8 @@ def generate_launch_description():
     # Get the package directory
     package_dir = get_package_share_directory('ugv')
 
+    package_name = 'ugv'
+
     # Set the path to the Xacro file
     xacro_file = os.path.join(package_dir, 'urdf', 'ugv.xacro')
 
@@ -41,6 +43,14 @@ def generate_launch_description():
                     'xacro ', xacro_file
                 ])
             }]
+        ),
+
+        # Load your custom control node to interpret cmd_vel
+        Node(
+            package=package_name,
+            executable='ugv_control',
+            name='ugv_control',
+            output='screen'
         )
 
 

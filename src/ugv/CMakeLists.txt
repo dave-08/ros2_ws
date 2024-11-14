@@ -12,6 +12,7 @@ find_package(urdf REQUIRED)
 find_package(xacro REQUIRED)
 find_package(joint_state_publisher)
 find_package(joint_state_publisher_gui)
+find_package(rclpy REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -25,7 +26,24 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-install(DIRECTORY launch urdf mesh rviz
+# Install Python nodes
+install(PROGRAMS
+  src/ugv_control.py  # Adjust the path if your Python file is elsewhere
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
+# Install URDF files
+install(DIRECTORY urdf/
+  DESTINATION share/${PROJECT_NAME}/urdf
+)
+
+# Install launch files
+install(DIRECTORY launch/
+  DESTINATION share/${PROJECT_NAME}/launch
+)
+
+install(DIRECTORY mesh rviz 
   DESTINATION share/${PROJECT_NAME}/
 )
 
