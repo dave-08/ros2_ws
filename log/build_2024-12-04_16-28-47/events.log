@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000604] (ugv) JobQueued: {'identifier': 'ugv', 'dependencies': OrderedDict()}
+[0.001136] (ugv) JobStarted: {'identifier': 'ugv'}
+[0.015714] (ugv) JobProgress: {'identifier': 'ugv', 'progress': 'cmake'}
+[0.017304] (ugv) Command: {'cmd': ['/usr/bin/cmake', '/home/david/ros/ros2_ws/src/ugv', '-DCMAKE_INSTALL_PREFIX=/home/david/ros/ros2_ws/install/ugv'], 'cwd': '/home/david/ros/ros2_ws/build/ugv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'david'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/david'), ('OLDPWD', '/home/david/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'david'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'david'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dave:@/tmp/.ICE-unix/2454,unix/dave:/tmp/.ICE-unix/2454'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64747bbd_329c_416a_b4bb_f7d28a554a57'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/david/ros/ros2_ws/build/ugv'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.046382] (ugv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099460] (-) TimerEvent: {}
+[0.200269] (-) TimerEvent: {}
+[0.300918] (-) TimerEvent: {}
+[0.324397] (ugv) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.388519] (ugv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.393218] (ugv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400996] (-) TimerEvent: {}
+[0.404354] (ugv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.421922] (ugv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.444678] (ugv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501135] (-) TimerEvent: {}
+[0.503509] (ugv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.505951] (ugv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601330] (-) TimerEvent: {}
+[0.685107] (ugv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701432] (-) TimerEvent: {}
+[0.775565] (ugv) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.801565] (-) TimerEvent: {}
+[0.813340] (ugv) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.831243] (ugv) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:13 (find_package):\n'}
+[0.831781] (ugv) StderrLine: {'line': b'  By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH\n'}
+[0.831956] (ugv) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.832099] (ugv) StderrLine: {'line': b'  by "joint_state_publisher", but CMake did not find one.\n'}
+[0.832234] (ugv) StderrLine: {'line': b'\n'}
+[0.832365] (ugv) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.832488] (ugv) StderrLine: {'line': b'  "joint_state_publisher" with any of the following names:\n'}
+[0.832609] (ugv) StderrLine: {'line': b'\n'}
+[0.832728] (ugv) StderrLine: {'line': b'    joint_state_publisherConfig.cmake\n'}
+[0.832849] (ugv) StderrLine: {'line': b'    joint_state_publisher-config.cmake\n'}
+[0.832968] (ugv) StderrLine: {'line': b'\n'}
+[0.833087] (ugv) StderrLine: {'line': b'  Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH\n'}
+[0.833210] (ugv) StderrLine: {'line': b'  or set "joint_state_publisher_DIR" to a directory containing one of the\n'}
+[0.833330] (ugv) StderrLine: {'line': b'  above files.  If "joint_state_publisher" provides a separate development\n'}
+[0.833448] (ugv) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[0.833563] (ugv) StderrLine: {'line': b'\n'}
+[0.833717] (ugv) StderrLine: {'line': b'\x1b[0m\n'}
+[0.848646] (ugv) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:14 (find_package):\n'}
+[0.848920] (ugv) StderrLine: {'line': b'  By not providing "Findjoint_state_publisher_gui.cmake" in CMAKE_MODULE_PATH\n'}
+[0.849060] (ugv) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.849189] (ugv) StderrLine: {'line': b'  by "joint_state_publisher_gui", but CMake did not find one.\n'}
+[0.849365] (ugv) StderrLine: {'line': b'\n'}
+[0.849492] (ugv) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.849638] (ugv) StderrLine: {'line': b'  "joint_state_publisher_gui" with any of the following names:\n'}
+[0.849776] (ugv) StderrLine: {'line': b'\n'}
+[0.849898] (ugv) StderrLine: {'line': b'    joint_state_publisher_guiConfig.cmake\n'}
+[0.850019] (ugv) StderrLine: {'line': b'    joint_state_publisher_gui-config.cmake\n'}
+[0.850137] (ugv) StderrLine: {'line': b'\n'}
+[0.850255] (ugv) StderrLine: {'line': b'  Add the installation prefix of "joint_state_publisher_gui" to\n'}
+[0.850378] (ugv) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "joint_state_publisher_gui_DIR" to a directory\n'}
+[0.850500] (ugv) StderrLine: {'line': b'  containing one of the above files.  If "joint_state_publisher_gui" provides\n'}
+[0.850619] (ugv) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.850738] (ugv) StderrLine: {'line': b'\n'}
+[0.850854] (ugv) StderrLine: {'line': b'\x1b[0m\n'}
+[0.853252] (ugv) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.856440] (ugv) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.895515] (ugv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901684] (-) TimerEvent: {}
+[1.002195] (-) TimerEvent: {}
+[1.088865] (ugv) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.090292] (ugv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.091685] (ugv) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.095350] (ugv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.100418] (ugv) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.102273] (-) TimerEvent: {}
+[1.116042] (ugv) StdoutLine: {'line': b'-- Generating done\n'}
+[1.122678] (ugv) StdoutLine: {'line': b'-- Build files have been written to: /home/david/ros/ros2_ws/build/ugv\n'}
+[1.152468] (ugv) CommandEnded: {'returncode': 0}
+[1.155097] (ugv) JobProgress: {'identifier': 'ugv', 'progress': 'build'}
+[1.155559] (ugv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/ros/ros2_ws/build/ugv', '--', '-j6', '-l6'], 'cwd': '/home/david/ros/ros2_ws/build/ugv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'david'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/david'), ('OLDPWD', '/home/david/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'david'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'david'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dave:@/tmp/.ICE-unix/2454,unix/dave:/tmp/.ICE-unix/2454'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64747bbd_329c_416a_b4bb_f7d28a554a57'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/david/ros/ros2_ws/build/ugv'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.202497] (-) TimerEvent: {}
+[1.244550] (ugv) CommandEnded: {'returncode': 0}
+[1.247028] (ugv) JobProgress: {'identifier': 'ugv', 'progress': 'install'}
+[1.267150] (ugv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/ros/ros2_ws/build/ugv'], 'cwd': '/home/david/ros/ros2_ws/build/ugv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'david'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/david'), ('OLDPWD', '/home/david/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'david'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'david'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dave:@/tmp/.ICE-unix/2454,unix/dave:/tmp/.ICE-unix/2454'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64747bbd_329c_416a_b4bb_f7d28a554a57'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/david/ros/ros2_ws/build/ugv'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.288142] (ugv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.288868] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/urdf\n'}
+[1.289117] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/urdf/r2d.urdf\n'}
+[1.289349] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/urdf/ugv.urdf\n'}
+[1.289575] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/urdf/ugv.xacro\n'}
+[1.289789] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/launch\n'}
+[1.290010] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/launch/ignition_ugv.launch.py\n'}
+[1.290224] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/launch/basic.launch.py\n'}
+[1.290430] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/launch/display_ugv.launch.py\n'}
+[1.290648] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh\n'}
+[1.290870] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/shaft.mtl\n'}
+[1.291127] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/lidar.mtl\n'}
+[1.291397] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/mainBody.stl\n'}
+[1.292310] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/tyre.stl\n'}
+[1.292767] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/shaft.obj\n'}
+[1.293060] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/lidar.obj\n'}
+[1.293337] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/tyre.obj\n'}
+[1.293823] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/shaft.stl\n'}
+[1.294138] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/mainBody.obj\n'}
+[1.294844] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/tyre.mtl\n'}
+[1.295097] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/mainBody.mtl\n'}
+[1.295654] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//mesh/lidar.stl\n'}
+[1.295937] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//rviz\n'}
+[1.296146] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv//rviz/ugv_config.rviz\n'}
+[1.297096] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ament_index/resource_index/package_run_dependencies/ugv\n'}
+[1.297494] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ament_index/resource_index/parent_prefix_path/ugv\n'}
+[1.298113] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/environment/ament_prefix_path.sh\n'}
+[1.298415] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/environment/ament_prefix_path.dsv\n'}
+[1.298679] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/environment/path.sh\n'}
+[1.298992] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/environment/path.dsv\n'}
+[1.299228] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/local_setup.bash\n'}
+[1.299494] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/local_setup.sh\n'}
+[1.299745] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/local_setup.zsh\n'}
+[1.299988] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/local_setup.dsv\n'}
+[1.300224] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/package.dsv\n'}
+[1.300572] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ament_index/resource_index/packages/ugv\n'}
+[1.300937] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/cmake/ugvConfig.cmake\n'}
+[1.301152] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/cmake/ugvConfig-version.cmake\n'}
+[1.301395] (ugv) StdoutLine: {'line': b'-- Installing: /home/david/ros/ros2_ws/install/ugv/share/ugv/package.xml\n'}
+[1.302543] (-) TimerEvent: {}
+[1.305768] (ugv) CommandEnded: {'returncode': 0}
+[1.352439] (ugv) JobEnded: {'identifier': 'ugv', 'rc': 0}
+[1.354163] (-) EventReactorShutdown: {}

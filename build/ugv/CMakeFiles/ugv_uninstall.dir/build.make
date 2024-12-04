@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/david/ros2_ws/src/ugv
+CMAKE_SOURCE_DIR = /home/david/ros/ros2_ws/src/ugv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/david/ros2_ws/build/ugv
+CMAKE_BINARY_DIR = /home/david/ros/ros2_ws/build/ugv
 
 # Utility rule file for ugv_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ugv_uninstall.dir/compiler_depend.make
 include CMakeFiles/ugv_uninstall.dir/progress.make
 
 CMakeFiles/ugv_uninstall:
-	/usr/bin/cmake -P /home/david/ros2_ws/build/ugv/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/david/ros/ros2_ws/build/ugv/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ugv_uninstall: CMakeFiles/ugv_uninstall
 ugv_uninstall: CMakeFiles/ugv_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ugv_uninstall.dir/clean:
 .PHONY : CMakeFiles/ugv_uninstall.dir/clean
 
 CMakeFiles/ugv_uninstall.dir/depend:
-	cd /home/david/ros2_ws/build/ugv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/david/ros2_ws/src/ugv /home/david/ros2_ws/src/ugv /home/david/ros2_ws/build/ugv /home/david/ros2_ws/build/ugv /home/david/ros2_ws/build/ugv/CMakeFiles/ugv_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/david/ros/ros2_ws/build/ugv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/david/ros/ros2_ws/src/ugv /home/david/ros/ros2_ws/src/ugv /home/david/ros/ros2_ws/build/ugv /home/david/ros/ros2_ws/build/ugv /home/david/ros/ros2_ws/build/ugv/CMakeFiles/ugv_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ugv_uninstall.dir/depend
 

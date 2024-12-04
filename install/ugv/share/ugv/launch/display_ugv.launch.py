@@ -12,6 +12,12 @@ def generate_launch_description():
     # Set the path to the Xacro file
     xacro_file = os.path.join(package_dir, 'urdf', 'ugv.xacro')
 
+    urdf_file = os.path.join(package_dir, 'urdf', 'ugv.urdf')
+
+        # Read the URDF file contents
+    with open(urdf_file, 'r') as urdf:
+        robot_description = urdf.read()
+
 
     return LaunchDescription([
 
@@ -38,7 +44,7 @@ def generate_launch_description():
             executable='robot_state_publisher',
             name='robot_state_publisher',
             output='screen',
-            parameters=[{'robot_description': Command(['xacro ', xacro_file])}]
-        ),
+            parameters=[{'robot_description': robot_description}] # :open(urdf_file).open() ;; Command(['xacro ', xacro_file])
+        )
 
     ])

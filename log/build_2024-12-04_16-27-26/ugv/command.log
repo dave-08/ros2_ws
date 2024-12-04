@@ -1,0 +1,2 @@
+Invoking command in '/home/david/ros/ros2_ws/build/ugv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/david/ros/ros2_ws/src/ugv -DCMAKE_INSTALL_PREFIX=/home/david/ros/ros2_ws/install/ugv
+Invoked command in '/home/david/ros/ros2_ws/build/ugv' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/david/ros/ros2_ws/src/ugv -DCMAKE_INSTALL_PREFIX=/home/david/ros/ros2_ws/install/ugv

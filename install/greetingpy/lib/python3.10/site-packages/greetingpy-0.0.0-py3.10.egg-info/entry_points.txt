@@ -1,4 +1,0 @@
-[console_scripts]
-greeting_subscriber = greetingpy.greetsub:main
-ugv_control = greetingpy.ugv_control:main
-

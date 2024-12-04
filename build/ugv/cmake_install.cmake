@@ -1,8 +1,8 @@
-# Install script for directory: /home/david/ros2_ws/src/ugv
+# Install script for directory: /home/david/ros/ros2_ws/src/ugv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/david/ros2_ws/install/ugv")
+  set(CMAKE_INSTALL_PREFIX "/home/david/ros/ros2_ws/install/ugv")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,26 +43,26 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/urdf" TYPE DIRECTORY FILES "/home/david/ros2_ws/src/ugv/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/urdf" TYPE DIRECTORY FILES "/home/david/ros/ros2_ws/src/ugv/urdf/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/launch" TYPE DIRECTORY FILES "/home/david/ros2_ws/src/ugv/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/launch" TYPE DIRECTORY FILES "/home/david/ros/ros2_ws/src/ugv/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/" TYPE DIRECTORY FILES
-    "/home/david/ros2_ws/src/ugv/mesh"
-    "/home/david/ros2_ws/src/ugv/rviz"
+    "/home/david/ros/ros2_ws/src/ugv/mesh"
+    "/home/david/ros/ros2_ws/src/ugv/rviz"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ugv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ugv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ugv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ugv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/environment" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/environment" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -78,42 +78,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/environment" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/environment" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/david/ros2_ws/build/ugv/ament_cmake_index/share/ament_index/resource_index/packages/ugv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/david/ros/ros2_ws/build/ugv/ament_cmake_index/share/ament_index/resource_index/packages/ugv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv/cmake" TYPE FILE FILES
-    "/home/david/ros2_ws/build/ugv/ament_cmake_core/ugvConfig.cmake"
-    "/home/david/ros2_ws/build/ugv/ament_cmake_core/ugvConfig-version.cmake"
+    "/home/david/ros/ros2_ws/build/ugv/ament_cmake_core/ugvConfig.cmake"
+    "/home/david/ros/ros2_ws/build/ugv/ament_cmake_core/ugvConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros2_ws/src/ugv/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ugv" TYPE FILE FILES "/home/david/ros/ros2_ws/src/ugv/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -124,5 +124,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/david/ros2_ws/build/ugv/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/david/ros/ros2_ws/build/ugv/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
